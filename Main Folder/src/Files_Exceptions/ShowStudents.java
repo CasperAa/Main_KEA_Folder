@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class ShowStudents {
     public static void main(String[] args) throws FileNotFoundException {
 
-        File students = new File("Files/Students.csv");
+        File students = new File("files/Students.csv");
 
         //Using the Scanner class to read the file and to ask the user for input
         Scanner readStudents = new Scanner(students);
@@ -40,6 +40,7 @@ public class ShowStudents {
             //Creating a instance of a student with the String data from above
             Students newStudent = new Students(studentEmail, studentName);
             //Adding the student to the ArrayList
+
             allStudents.add(newStudent);
         }
         //Printing the number of students (elements) in the ArrayList
