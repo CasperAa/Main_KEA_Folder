@@ -43,6 +43,7 @@ public class RedditPost implements Comparable <RedditPost>{
         this.title = title;
     }
     @Override
+
     public int compareTo(RedditPost other){
         if(this.upvotes > other.getUpvotes()){
             return 1;

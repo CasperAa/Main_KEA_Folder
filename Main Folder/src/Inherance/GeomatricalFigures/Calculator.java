@@ -18,5 +18,7 @@ public class Calculator {
         System.out.println("The triangle's perimeter is: \n" + triangle.calculatePerimeter());
         System.out.println("The circle's area is: \n" + circle.calculateArea());
         System.out.println("The Circle's perimeter is: \n" + square.calculatePerimeter());
+
+
     }
 }
